@@ -6,7 +6,8 @@ export const CREATE_POST = 'CREATE_POST';
 export const DELETE_POST = 'DELETE_POST';
 
 const ROOT_URL = 'https://reduxblog.herokuapp.com/api';
-const API_KEY = '?key=LEEEEEROYJENKINS';
+const USERNAME = 'LEEEEEROYJENKINS';
+const API_KEY = `?key=${USERNAME}`;
 
 export const fetchPosts = () => {
   const request = axios.get(`${ROOT_URL}/posts${API_KEY}`);
