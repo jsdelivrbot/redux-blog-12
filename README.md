@@ -22,7 +22,7 @@ or
 npm install
 ```
 
-## Running the Project
+### Running the Project
 
 The application uses the [Redux Blog Post API](https://reduxblog.herokuapp.com/) to persist data. Inside of `actions/index.js` you can change the value of `USERNAME` if you want your own unique data.
 
